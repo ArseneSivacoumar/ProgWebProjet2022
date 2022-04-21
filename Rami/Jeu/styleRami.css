@@ -1,0 +1,42 @@
+html {
+	background-color:green;
+}
+
+#content1 {
+ position:absolute;
+ margin-top:20px;
+ margin-left:30%;
+}
+
+#content2 {
+ position: absolute;
+ width: 50px;
+ margin-left: 90%;
+ margin-top: 120px;
+}
+
+#content3 {
+ position: absolute;
+ margin-left: 30%;
+ margin-top: 700px;
+}
+
+#content4 {
+ position:absolute;
+ margin-left:5%;
+ width:50px;
+ margin-top:120px;  
+}
+
+#content4>img[name=vertical] {
+ display: inline-block
+ transform: rotate(90deg);
+}
+
+#content5 {
+ position:absolute;
+ margin-left:50%;
+ width:35px;
+ height:55px;
+ margin-top:30%;
+}

@@ -1,0 +1,53 @@
+body{
+    /*background: #696969;*/
+    background: rgba(0, 0, 0, 0.8);
+    /*background-image: url("https://s1.qwant.com/thumbr/474x202/b/7/d368653df97e010310c01a689cb3d5d5f7bcf0ab8de7cc2a35b146476d0673/th.jpg?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.CMnXT9AzfezqYHj2kxWQ1QHaDK%26pid%3DApi&q=0&b=1&p=0&a=0");*/
+}
+
+#container{
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 5%;
+}
+
+form {
+    width: 100%;
+    padding: 30px;
+    background: #D3D3D3;
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.2), 0 10px 10px 0 rgba(0, 0, 0, 0.24);
+    border-radius: 20px;
+}
+
+#container h1{
+    width: 38%;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+
+
+input[type=text], input[type=password] {
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+}
+
+
+input[type=submit], input[type=button] {
+    background-color: #505050;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 20px;
+}
+
+input[type=submit]:hover, input[type=button]:hover {
+    background-color: white;
+    color: #505050;
+    border: 1px solid #505050;
+}

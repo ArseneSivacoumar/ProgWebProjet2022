@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+   <link rel="stylesheet" type="text/css" href="styleRami.css" />
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script>
+    // Created a map which holds key value pairs
+    let map = new Map()
+    getParameters = () => {
+  
+    // Address of the current window
+    address = window.location.search
+  
+    // Returns a URLSearchParams object instance
+    parameterList = new URLSearchParams(address)
+  
+    // Storing every key value pair in the map
+    parameterList.forEach((value, key) => {
+        map.set(key, value)
+    })
+  
+    // Returning the map of GET parameters
+    return map
+}
+  
+// Gets all the getParameters
+console.log(getParameters())
+
+    console.log(map.values().next().value);
+
+  </script>
+     </body>
+</html>
